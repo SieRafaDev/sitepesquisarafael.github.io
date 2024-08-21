@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    <link rel="stylesheet" href="pesquisa.css">
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Pesquisa de mercado</h1>
+        <h2 id="subtitulo">Complete o formulário abaixo</h2>
+    </div>
+
+    <form action=""></form>
+    <fieldset>
+        <div>
+            <label for="nome">Digite seu nome: </label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label for="idade">Digite sua idade: </label>
+            <input type="number" name="idade" id="idade" required>
+        </div>
+        <div>
+            <label for="email">Digite seu email: </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label>Digite seu sexo: </label>
+            <label>
+                <input type="radio" name="sexo" id="masculino">Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" id="feminino">Feminino
+            </label>
+        </div>
+    </fieldset>
+    <br>
+    <div required>
+        <label>1 - Em qual região você mora?</label>
+        <br>
+        <label>
+            <input type="radio" name="region" id="centrooeste">Centro-Oeste
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="region" id="nordeste">Nordeste
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="region" id="norte">Norte
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="region" id="sudeste">Sudeste
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="region" id="sul">Sul
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>2 - Qual a sua media salarial?</label>
+        <br>
+        <label>
+            <input type="radio" name="salario" id="menor_2000">Menos de 2000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="salario" id="entre_2000/5000">Entre 2000-5000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="salario" id="entre_3500/10000">Entre 5000-10000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="salario" id="Maior_10000">Maior que 10000R$
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>3 - Você trabalha de um desses setores abaixo?</label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="marketing">Marketing
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="jornalismo">Jornalismo
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="vendas">Vendas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="produtos_tecnologia">Produtos e serviços tecnológicos
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="saude">Saude
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="direito">Direito
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="setor" id="outros" >Outros
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>4 - Quanto você gasta por mês?</label>
+        <br>
+        <label>
+            <input type="radio" name="gastos" id="gasta_menos_1000">Menos que 1000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="gastos" id="gasta_1000-5000">Entre 1000-2500R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="gastos" id="gasta_2500-3500" >Entre 2500-3500R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="gastos" id="gasta_mais_que_5000" >Mais que 5000R$
+    </div>
+    <br>
+    <div required>
+        <label>5 - Marque os produtos que você possui na sua casa</label>
+        <br>
+        <label>
+            <input type="checkbox" name="produto" id="geladeira" >Geladeira
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="produto" id="arcondicionado" >Ar-Condicionado
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="produto" id="microondas" >Microondas
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="produto" id="televisão" >Televisão
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="produto" id="lavaroupas" >Lava-roupas
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>6 - Quantas pessoas trabalham em sua empresa?</label>
+        <br>
+        <label>
+            <input type="radio" name="pessoas" id="pessoas_30/50" >Entre 30-50 pessoas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="pessoas" id="pessoas_50/75" >Entre 50-75 pessoas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="pessoas" id="pessoas_75/100" >Entre 75-100 pessoas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="pessoas" id="pessoas_mais_100" >Mais de 100 pessoas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="pessoas" id="pessoas_mais_250" >Mais de 250 pessoas
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>7 - Você já viajou para fora do país?</label>
+        <br>
+        <label>
+            <input type="radio" name="viajou" id="não_viajou" >Não
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="viajou" id="sim_viajou" >Sim
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>8 - Você possui algum parente morando fora do país?</label>
+        <br>
+        <label>
+            <input type="radio" name="parente" id="parente_fora_não" >Não
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="parente" id="parente_fora_sim" >Sim
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>9 - Qual sua renda anual?</label>
+        <br>
+        <label>
+            <input type="radio" name="renda" id="renda_menos_10000" >Menos de 10000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="renda" id="renda_10000/15000" >Entre 10000-15000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="renda" id="renda_15000/30000" >Entre 15000-30000R$
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="renda" id="renda_mais_30000" >Mais que 30000R$
+        </label>
+    </div>
+    <br>
+    <div required>
+        <label>10 - Você possui filhos?</label>
+        <br>
+        <label>
+            <input type="radio" name="filhos" id="não_filhos" >Não possui filhos
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="filhos" id="filhos_um" >Apenas 1
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="filhos" id="filhos_mais_que_um" >Mais que 1
+        </label>
+    </div>
+    <br>
+    <button type="submit">Enviar</button>
+</body>
+</html>
