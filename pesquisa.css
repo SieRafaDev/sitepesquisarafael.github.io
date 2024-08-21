@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+}
+
+#titulo {
+    background-color: yellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#subtitulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset {
+    border: 0;
+    background-color: yellow;
+}
